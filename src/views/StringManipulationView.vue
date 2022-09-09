@@ -5,7 +5,7 @@
     elevation="5"
   >
   
-    <v-card-title class="my-5"><h2>String Manipulation</h2></v-card-title>
+    <v-card-title class="my-5"><h2>String Manipul</h2></v-card-title>
 
     <v-text-field label="Type any Word" v-model="word"></v-text-field>
 
