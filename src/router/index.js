@@ -5,6 +5,7 @@ import VuetifyView from '../views/VuetifyView.vue'
 import AboutMeView from '../views/AboutMeView.vue'
 import QuizView from '../views/QuizView.vue'
 import HomeView from '../views/StringManipulationView.vue'
+import AboutApplicationView from '../views/AboutApplicationView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/QuizView',
       name: '/QuizView',
       component: QuizView
+    },
+    {
+      path: '/AboutApplicationView',
+      name: '/AboutApplicationView',
+      component: AboutApplicationView
     },
   ]
 })

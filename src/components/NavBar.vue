@@ -68,6 +68,7 @@
            { title: 'Vuetify', icon: 'mdi-label', path: '/VuetifyView'},
            { title: 'About Me', icon: 'mdi-account-circle-outline', path: '/AboutMeView'},
            { title: 'Quiz', icon: 'mdi-check-circle', path: '/QuizView'},
+           { title: 'About the Application', icon: 'mdi-help', path: '/AboutApplicationView'},
         ])
 
  function toggleDrawer(){
